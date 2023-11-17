@@ -1,9 +1,10 @@
 import User from "./components/user";
-
+import './app.css'
 function App() {
   return (
-    <div>
-    <User name={'User 1'} symbol={'X'}/>
+    <div id="container">
+      <User name={'Player 1'} symbol={'X'}/>
+      <User name={'Player 2'} symbol={'O'}/>
     </div>
   );
 }

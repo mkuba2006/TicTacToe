@@ -1,12 +1,12 @@
 import { useState } from "react"
-
+import './user.css'
 
 const User = ({name, symbol}) =>{
     const [edit, setEdit] = useState(true);
     const [UserName, setUserName] = useState(name);
 
 
-    const change = (e) =>{
+    const change = () =>{
         setEdit((edit)=> !edit);
     }
 
@@ -17,16 +17,14 @@ const User = ({name, symbol}) =>{
     }
 
     if(!edit){
-        PlayerName =( <input type="text" required value={UserName} onChange={type}/>);
+        PlayerName = <input id="inp_text" type="text" required value={UserName} onChange={type}/>;
     }
 
-
-
     return(
-        <div>
-        <span>{PlayerName}</span>
-            <p className="player">{symbol}</p>
-            <button onClick={change}>{edit ? 'edit' : 'save'}</button>
+        <div id="cnt">
+        <span id="name">{PlayerName}</span>
+            <p id="player">{symbol}</p>
+            <button id="edit" onClick={change}>{edit ? 'edit' : 'save'}</button>
         </div>
     )
 }

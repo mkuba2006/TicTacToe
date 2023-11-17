@@ -1,0 +1,47 @@
+#cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    font-family: "stevie-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#name{
+    width: auto;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#edit{
+    font-family: "stevie-sans", sans-serif;
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#player{
+    font-size: 15px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+
+#inp_text{
+    font-size: 20px;
+    font-family: "stevie-sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #0b1b0c;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
