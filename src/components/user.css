@@ -23,6 +23,13 @@
     border: none;
     color: white;
     cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+#edit:hover{
+    background-color: rgba(53, 53, 53, 0.692);
 }
 
 #player{
