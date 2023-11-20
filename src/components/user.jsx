@@ -1,7 +1,7 @@
 import { useState } from "react"
 import './user.css'
 
-const User = ({name, symbol}) =>{
+const User = ({name, symbol, isActive}) =>{
     const [edit, setEdit] = useState(true);
     const [UserName, setUserName] = useState(name);
 
